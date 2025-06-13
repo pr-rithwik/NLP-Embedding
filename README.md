@@ -1,7 +1,13 @@
 # GitHub Codespaces ♥️ Jupyter Notebooks
 
-Welcome to your shiny new codespace! We've got everything fired up and running for you to explore Python and Jupyter notebooks.
+An embedding is just a numerical vector representation of something (a word, sentence, document, etc.) in a continuous, dense vector space. It allows machines to understand and compute similarity between linguistic elements.
 
-You've got a blank canvas to work on from a git perspective as well. There's a single initial commit with what you're seeing right now - where you go from here is up to you!
-
-Everything you do here is contained within this one codespace. There is no repository on GitHub yet. If and when you’re ready you can click "Publish Branch" and we’ll create your repository and push up your project. If you were just exploring then and have no further need for this code then you can simply delete your codespace and it's gone forever.
+This contains the implementation of different embeddings
+- BoW
+    - Implemented using `CountVectorizer` from `scikit`
+- TF-IDF
+    - Implemented using `TfidfVectorizer` from `scikit`
+- Fasttext (better than Word2Vec)
+    - Implemented using `fasttext`
+- MiniLM (better than BERT) 
+    - Implemented with model `all-MiniLM-L6-v2` using `sentence-transformers`

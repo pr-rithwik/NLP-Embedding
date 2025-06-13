@@ -1,4 +1,4 @@
 notebooks/data
 notebooks/cifar_net.pth
 .ipynb_checkpoints/
-git_ops.ipynb
+cmds.ipynb

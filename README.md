@@ -1,4 +1,4 @@
-# GitHub Codespaces ♥️ Jupyter Notebooks
+# Embeddings
 
 An embedding is just a numerical vector representation of something (a word, sentence, document, etc.) in a continuous, dense vector space. It allows machines to understand and compute similarity between linguistic elements.
 
